@@ -12,21 +12,21 @@ struct ContentView: View {
     
     var body: some View {
         
-        ZStack {
-            Rectangle()
-                .fill(.black.gradient)
+       // ZStack {
+         //   Rectangle()
+            //    .fill(.black.gradient)
             
             //Color.yellow.opacity(0.5)
-                .ignoresSafeArea()
+               // .ignoresSafeArea()
             
             VStack {
-                Text("You Have Skills")
-                    .font(.largeTitle)
-                    .fontWeight(.black)
-                    .foregroundColor(Color.blue)
-                    .padding()
-                    .background(Color(.orange))
-                    .cornerRadius(15)
+                //Text("You Have Skills")
+                  //  .font(.largeTitle)
+                   // .fontWeight(.black)
+                    //.foregroundColor(Color.blue)
+                   // .padding()
+                   // .background(Color(.orange))
+                   // .cornerRadius(15)
                 
                 Spacer()
                 
@@ -39,7 +39,7 @@ struct ContentView: View {
                     .foregroundColor(.red)
                     .frame(height: 150)
                     .frame(maxWidth: .infinity)
-                    .border(.orange, width: 1)
+                    //.border(.orange, width: 1)
                     .padding()
                 
                 Spacer()
@@ -75,7 +75,7 @@ struct ContentView: View {
         }
        
     }
-}
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
